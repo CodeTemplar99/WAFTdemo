@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WAFT demo</title>
+    <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="./icons/css/fontawesome-all.min.css" rel="stylesheet" type="text/css">
+    <link href="./Css/styled.css" rel="stylesheet" type="text/css">
+    <script defer src="./js/spine.js"></script>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light d-flex justify-content-start flex-wrap">
+        <div class="col-lg-9 bg-transparent d-flex justify-content-between flex-wrap align-items-center">
+            <div>
+                <a class="navbar-brand font-weight-bolder" href="#">WAFT<span class="small ml-1">Technologies</span></a>
+            </div>
+            <div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation" onclick="showSideBar()">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item mx-5 active">
+                            <a class="nav-link" href="#">Home <span><i class="fa fa-home tab-icons ml-1"></i></span>
+                                <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item mx-5">
+                            <a class="nav-link" href="#">Products<span><i
+                                        class="fa fa-cubes tab-icons ml-1"></i></span></a>
+                        </li>
+                        <li class="nav-item mx-5">
+                            <a class="nav-link" href="#">Pricing <span><i
+                                        class="fa fa-dollar-sign tab-icons ml-1"></i></span></a>
+                        </li>
+                        <li class="nav-item mx-5">
+                            <a class="nav-link" href="#">Contact Us <span><i
+                                        class="fa fa-home tab-icons ml-1"></i></span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid p-0 rounded-0">
+        <!-- first section -->
+        <div class="jumbotron mb-0 rounded-0 s1 p-0">
+            <div id="slide">
+                <img class="image-responsive img-fluid" src="./images/phoneInDark-768x432.jpg">
+                <!-- <img class="image-responsive img-fluid" src="./images/pexels-photo.jpg"> -->
+                <!-- <img class="image-responsive img-fluid" src="./images/eclipse_art-wallpaper-1600x900.jpg"> -->
+                <!-- <img class="image-responsive img-fluid" src="./images/beautiful-wallpaper-1600x900.jpg"> -->
+            </div>
+            <div
+                class="jumbotron col-lg-12 p-1 position-absolute d-flex justify-content-between align-items-center bg-transparent abs-con">
+                <div class="jumbotron col-lg-6 p-1 bg-transparent d-flex justify-content-start align-items-center">
+                    <div class="jumbotron bg-transparent m-0 bg-danger p-1 ml-lg-3 mr-lg-5">
+                        <i class="fa fa-play-circle" id="playRight"></i>
+                    </div>
+                    <div class="jumbotron m-0 bg-transparent">
+                        <p class="lead big-text mb-1">Lorem ipsum dolor sit amet consectetur.</p>
+                        <p class="text-intro">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos ea
+                            veniam repellat reiciendis.</p>
+                        <button class="btn btn-info">Get Started</button>
+                    </div>
+                </div>
+                <div class="jumbotron bg-transparent mb-0 p-1 mr-lg-3">
+                    <i class="fa fa-play-circle"></i>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- s2 -->
+        <div class="jumbotron mb-1 rounded-0 d-flex justify-content-lg-center align-items-center">
+            <div class="jumbotron col-lg-3 bg-transparent mr-lg-2">
+                <p class="lead text-center text-writeup-head">
+                    Lorem ipsum dolor sit amet.
+                </p>
+                <p class="text-center text-writeup">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus
+                    magni deleniti aliquid et sed, corporis perspiciatis soluta assumenda at ducimus quisquam ullam,
+                    impedit mollitia eos debitis sit officia. Nostrum, atque.</p>
+            </div>
+            <div class="jumbotron bg-transparent p-1 ml-lg-2">
+                <img class="image-fluid s2-img" src="./images/phoneInDark-768x432.jpg">
+
+            </div>
+
+        </div>
+        <!-- s3 -->
+        <div class="jumbotron bg-transparent rounded-0 p-0">
+            <div class="jumbotron rounded-0 p-2 mb-1">
+                <p class="lead text-center">Benefits</p>
+            </div>
+
+            <div class="jumbotron bg-transparent p-0 rounded-0 col-lg-12 d-flex justify-content-lg-center">
+                <div class="jumbotron p-0 mx-2 s3-img-con" style="background: url(./images/phoneInDark-768x432.jpg)">
+                </div>
+                <div class="jumbotron p-0 mx-2 s3-img-con" style="background: url(./images/phoneInDark-768x432.jpg)">
+                </div>
+                <div class="jumbotron p-0 mx-2 s3-img-con" style="background: url(./images/phoneInDark-768x432.jpg)">
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    </div>
+
+</body>
+
+</html>
