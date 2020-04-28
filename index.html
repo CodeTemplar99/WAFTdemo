@@ -15,12 +15,12 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light d-flex justify-content-start flex-wrap">
-        <div class="col-lg-9 bg-transparent d-flex justify-content-between flex-wrap align-items-center">
-            <div>
-                <a class="navbar-brand font-weight-bolder" href="#">WAFT<span class="small ml-1">Technologies</span></a>
+    <nav class="navbar navbar-expand-lg navbar-light d-flex justify-content-start flex-wrap col-12">
+        <div class="col-lg-10 bg-transparent d-flex justify-content-start flex-wrap align-items-center">
+            <div class="ml-lg-5">
+                <a class="navbar-brand font-weight-bolder" href="#">halo</a>
             </div>
-            <div>
+            <div class="bg-transparent lister">
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation" onclick="showSideBar()">
@@ -28,30 +28,36 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
-                        <li class="nav-item mx-5 active">
-                            <a class="nav-link" href="#">Home <span><i class="fa fa-home tab-icons ml-1"></i></span>
-                                <span class="sr-only">(current)</span></a>
+                        <li class="nav-item mx-4 active">
+                            <a class="nav-link" href="#">Shop
+                                <span class="sr-only">(current)</span><span class="small ml-lg-1"><i
+                                        class="fa fa-angle-down"></i></span></a>
                         </li>
-                        <li class="nav-item mx-5">
-                            <a class="nav-link" href="#">Products<span><i
-                                        class="fa fa-cubes tab-icons ml-1"></i></span></a>
+                        <li class="nav-item mx-4">
+                            <a class="nav-link" href="#">Science</a>
                         </li>
-                        <li class="nav-item mx-5">
-                            <a class="nav-link" href="#">Pricing <span><i
-                                        class="fa fa-dollar-sign tab-icons ml-1"></i></span></a>
+                        <li class="nav-item mx-4">
+                            <a class="nav-link" href="#">Experience</a>
                         </li>
-                        <li class="nav-item mx-5">
-                            <a class="nav-link" href="#">Contact Us <span><i
-                                        class="fa fa-home tab-icons ml-1"></i></span></a>
+                        <li class="nav-item mx-4">
+                            <a class="nav-link" href="#">Result<span class="small ml-lg-1"><i
+                                        class="fa fa-angle-down"></i></span></a>
+                        </li>
+                        <li class="nav-item mx-4">
+                            <a class="nav-link" href="#">Support</a>
                         </li>
                     </ul>
                 </div>
+            </div>
+
+            <div class="jumbotron bg-transparent p-0 m-0 shop-con">
+                <i class="fa fa fa-shopping-cart"></i>
             </div>
         </div>
     </nav>
 
     <div class="container-fluid p-0 rounded-0">
-        <!-- first section -->
+        <!-- s1 -->
         <div class="jumbotron mb-0 rounded-0 s1 p-0">
             <div id="slide">
                 <img class="image-responsive img-fluid" src="./images/phoneInDark-768x432.jpg">
@@ -63,17 +69,19 @@
                 class="jumbotron col-lg-12 p-1 position-absolute d-flex justify-content-between align-items-center bg-transparent abs-con">
                 <div class="jumbotron col-lg-6 p-1 bg-transparent d-flex justify-content-start align-items-center">
                     <div class="jumbotron bg-transparent m-0 bg-danger p-1 ml-lg-3 mr-lg-5">
-                        <i class="fa fa-play-circle" id="playRight"></i>
+                        <i class="fa fa-play" id="playRight"></i>
                     </div>
                     <div class="jumbotron m-0 bg-transparent">
-                        <p class="lead big-text mb-1">Lorem ipsum dolor sit amet consectetur.</p>
-                        <p class="text-intro">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos ea
-                            veniam repellat reiciendis.</p>
-                        <button class="btn btn-info">Get Started</button>
+                        <p class="lead big-text mb-1">Paralympian Closer to Tokyo 2020 </p>
+                        <p class="text-intro"> "I dropped 6 seconds off my 100m back stroke... That's a massive amount
+                            of time. I'm doing
+                            the impossible with Halo
+                            Sport." - Jamal Hill, Paralympic Swimmer</p>
+                        <button class="btn btn-info">Watch Video</button>
                     </div>
                 </div>
                 <div class="jumbotron bg-transparent mb-0 p-1 mr-lg-3">
-                    <i class="fa fa-play-circle"></i>
+                    <i class="fa fa-play"></i>
                 </div>
 
             </div>
@@ -82,13 +90,12 @@
 
         <!-- s2 -->
         <div class="jumbotron mb-1 rounded-0 d-flex justify-content-lg-center align-items-center">
-            <div class="jumbotron col-lg-3 bg-transparent mr-lg-2">
+            <div class="jumbotron col-lg-4 bg-transparent mr-lg-2">
                 <p class="lead text-center text-writeup-head">
-                    Lorem ipsum dolor sit amet.
+                    What is Halo Sport?
                 </p>
-                <p class="text-center text-writeup">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus
-                    magni deleniti aliquid et sed, corporis perspiciatis soluta assumenda at ducimus quisquam ullam,
-                    impedit mollitia eos debitis sit officia. Nostrum, atque.</p>
+                <p class="text-center text-writeup">Halo Sport is a brain stimulator that helps you develop muscle
+                    memory faster.</p>
             </div>
             <div class="jumbotron bg-transparent p-1 ml-lg-2">
                 <img class="image-fluid s2-img" src="./images/phoneInDark-768x432.jpg">
@@ -97,24 +104,274 @@
 
         </div>
         <!-- s3 -->
-        <div class="jumbotron bg-transparent rounded-0 p-0">
-            <div class="jumbotron rounded-0 p-2 mb-1">
-                <p class="lead text-center">Benefits</p>
+        <div class="jumbotron mb-0 black rounded-0 px-0 py-4 d-flex justify-content-lg-start align-items-center">
+            <div class="jumbotron col-lg-6 mr-lg-4 rounded-0 vid-con"></div>
+            <div class="jumbotron bg-transparent col-lg-5">
+                <div class="col-lg-12">
+                    <p class="reduced">How Halo Sport Works</p>
+                    <hr>
+                </div>
+                <div class="col-lg-7 mt-4 text-white">
+                    <p class="mt-5">
+                        Halo Sport works by applying a small electric current to the area of the brain that controls
+                        movement, putting it into a
+                        state of hyperlearning.
+
+                        Peer-reviewed research shows Halo Sport improves performance by 15%.
+
+                    </p>
+                    <button class="btn">Learn the Science</button>
+                </div>
+            </div>
+        </div>
+        <div class="jumbotron bg-secondary rounded-0 p-4 m-0">
+            <p class="text-center text-white m-0 smaller">Discover our research with the world's best athletes and
+                musicians</p>
+        </div>
+        <!-- s4 -->
+        <div class="jumbotron mb-0 bg-transparent rounded-0 p-0">
+            <div class="jumbotron black rounded-0 p-4 mb-0"></div>
+            <div class="jumbotron black rounded-0 p-4 mb-0">
+                <p class="lead text-center text-white reduced">Benefits</p>
+            </div>
+            <div class="jumbotron black rounded-0 p-4 mb-0"></div>
+            <div class="jumbotron black rounded-0 p-4 mb-0"></div>
+            <div class="jumbotron black rounded-0 p-4 mb-0"></div>
+            <div class="jumbotron black rounded-0 p-4 mb-0">
             </div>
 
-            <div class="jumbotron bg-transparent p-0 rounded-0 col-lg-12 d-flex justify-content-lg-center">
+            <div class="jumbotron bg-transparent mb-0 p-0 rounded-0 col-lg-12 d-flex justify-content-lg-center">
                 <div class="jumbotron p-0 mx-2 s3-img-con" style="background: url(./images/phoneInDark-768x432.jpg)">
+                    <div class="cover-all">
+                        <p class="small mb-0 text-white text-center benefits">BENEFITS</p>
+                        <p class="lead text-center text-white mb-1 smaller u-benefits">
+                            Improve Performance
+                        </p>
+                        <p class="text-white text-center uu-benefits">Studies show Halo Sport improves performance by
+                            +15%. So you
+                            can
+                            run faster, get stronger, and more.
+                        </p>
+                    </div>
                 </div>
                 <div class="jumbotron p-0 mx-2 s3-img-con" style="background: url(./images/phoneInDark-768x432.jpg)">
+                    <div class="cover-all">
+                        <p class="small mb-0 text-white text-center benefits">BENEFITS</p>
+                        <p class="lead text-center text-white mb-1 smaller u-benefits">
+                            Get Results Faster
+                        </p>
+                        <p class="text-white text-center uu-benefits">Get Results Faster
+                            Real world tests show Halo Sport helps people see results 45% faster. So you can get in
+                            shape or
+                            learn songs in less
+                            time.</p>
+                    </div>
                 </div>
                 <div class="jumbotron p-0 mx-2 s3-img-con" style="background: url(./images/phoneInDark-768x432.jpg)">
+                    <div class="cover-all">
+                        <p class="small mb-0 text-white text-center benefits">BENEFITS</p>
+                        <p class="lead text-center text-white mb-1 smaller u-benefits">
+                            Develop Skill
+                        </p>
+                        <p class="text-white text-center uu-benefits">Studies show Halo Sport helps musicians develop
+                            30% more
+                            skill. So
+                            you can perfect your technique or finally learn
+                            guitar.</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="jumbotron p-0 mb-0 bg-transparent rounded-0 btn-nd-co">
+                <div class="jumbotron bg-transparent p-1 d-flex justify-content-lg-center">
+                    <button class="btn">Buy Halo Sport</button>
+                </div>
+
+                <div class="jumbotron bg-transparent">
+                    <div class="prime-cover">
+                        <p class="reduced text-dark"> Prime for 20,<br>
+                            Train for 60</p>
+                        <ul class="list-group ml-lg-5">
+                            <li>Wear Halo Sport for 20 minutes, then take it off</li>
+                            <li>Benefits last for the next 60 minutes</li>
+                            <li>Practice as usual, see better results</li>
+                        </ul>
+                        <button class="btn liner-btn">Learn How to Use Halo</button>
+                    </div>
+
+                </div>
+
+                <div class="jumbotron bg-transparent d-flex justify-content-end">
+                    <div class="real-cover">
+                        <p class="reduced text-dark">Real Science,<br>
+                            Real Results</p>
+                        <p>
+                            Thousands of peer-reviewed papers and real-world studies prove that Neuropriming works. In
+                            this placebo-controlled
+                            study, U.S. Olympians saw 45% faster results with Halo Sport.
+                        </p>
+                        <button class="btn liner-btn">See Results</button>
+                    </div>
+
+                </div>
+
+                <div class="jumbotron mb-0 bg-transparent rounded-0 partner-super">
+                    <div>
+                        <p class="small m-0 text-center partner-title">Halo Neuroscience Partners</p>
+                    </div>
+                    <div class="jumbotron bg-transparent mt-2 mb-0 px-3 py-0 pb-2 partners-con">
+                        <div
+                            class="d-flex bg-transparent justify-content-between flex-wrap align-items-center p-2 partner-box-con col-lg-12">
+
+                            <div class="jumbotron ml-4 mb-0 p-0 partner-box"><img class="img-fluid"
+                                    src="./images/phoneInDark-768x432.jpg">
+                            </div>
+                            <div class="jumbotron ml-4 mb-0 p-0 partner-box"><img class="img-fluid"
+                                    src="./images/phoneInDark-768x432.jpg">
+                            </div>
+                            <div class="jumbotron ml-4 mb-0 p-0 partner-box"><img class="img-fluid"
+                                    src="./images/phoneInDark-768x432.jpg">
+                            </div>
+                            <div class="jumbotron ml-4 mb-0 p-0 partner-box"><img class="img-fluid"
+                                    src="./images/phoneInDark-768x432.jpg">
+                            </div>
+                            <div class="jumbotron ml-4 mb-0 p-0 partner-box"><img class="img-fluid"
+                                    src="./images/phoneInDark-768x432.jpg">
+                            </div>
+                            <div class="jumbotron ml-4 mb-0 p-0 partner-box"><img class="img-fluid"
+                                    src="./images/phoneInDark-768x432.jpg">
+                            </div>
+                            <div class="jumbotron ml-4 mb-0 p-0 partner-box"><img class="img-fluid"
+                                    src="./images/phoneInDark-768x432.jpg">
+                            </div>
+                            <div class="jumbotron ml-4 mb-0 p-0 partner-box"><img class="img-fluid"
+                                    src="./images/phoneInDark-768x432.jpg">
+                            </div>
+                            <div class="jumbotron ml-4 mb-0 p-0 partner-box"><img class="img-fluid"
+                                    src="./images/phoneInDark-768x432.jpg">
+                            </div>
+
+
+
+
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="jumbotron bg-transparent rounded-0 p-1 mb-5">
+                    <div>
+                        <p class="text-center text-dark reduced mb-0">Your Questions, Answered</p>
+                    </div>
+                    <div class="jumbotron bg-transparent p-1 mb-0 d-flex justify-content-center">
+                        <div class="jumbotron col-lg-2 mx-0 mb-0 rounded-0 bg-white">
+                            <p class="smaller text-dark ">
+                                Is Halo Sport safe?
+                            </p>
+
+                            <p>
+                                Yes. 15+ years of academic research and Halo Neuroscience trials on thousands of
+                                subjects validate Halo Sport's
+                                excellent safety profile. This patented technology was built with medical-grade
+                                engineering and design.
+                            </p>
+                        </div>
+                        <div class="jumbotron col-lg-2 mx-0 mb-0 rounded-0 bg-white">
+                            <p class="smaller text-dark ">
+                                Who can use Halo Sport?
+                            </p>
+                            <p>
+                                Adults over 18 who are trying to improve their physical performance through
+                                movement-based training, including athletes,
+                                musicians, trainers, fitness enthusiasts, and more.
+                            </p>
+                        </div>
+                        <div class="jumbotron col-lg-2 mx-0 mb-0 rounded-0 bg-white">
+                            <p class="smaller text-dark ">Should I wear Halo Sport during my training?
+                            </p>
+                            <p>
+                                Up to you. After your 20-minute Neuropriming session, you can take off Halo Sport or
+                                keep it on and listen to music —
+                                the performance benefits are the same.
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="jumbotron bg-transparent p-1 d-flex justify-content-lg-center">
+                        <button class="btn">Buy Halo Sport</button>
+                    </div>
+
+                </div>
+                <div class="jumbotron mb-5 bg-transparent d-flex justify-content-end">
+                    <div class="real-cover">
+                        <small>SWEEPSTAKES</small>
+                        <p class="reduced text-dark">
+                            Enter to win Halo Sport 2
+                            <p>
+                                This month, one lucky person will win the only brain stimulator for muscle memory.
+                            </p>
+                            <button class="btn liner-btn">Enter Now</button>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="jumbotron mb-0 rounded-0 foot">
+                <div class=" jumbotron mb-0 bg-transparent foot-cover badge-danger p-1 d-flex justify-content-lg-start">
+                    <div class="jumbotron bg-transparent mb-0 mr-3 col-2">
+                        <p class="smaller">
+                            CONNECT
+                        </p>
+                        <p>
+                            <a href="#">FAQs</a><br>
+                            <a href="#">Partnerships</a><br>
+                            <a href="#">Social Media</a><br>
+                            <a href="#">Halo Sport 2 Owner's Guide</a>
+                        </p>
+
+
+                    </div>
+                    <div class="jumbotron bg-transparent mb-0 mr-3 col-2">
+                        <p class="smaller">
+                            VALIDATION
+                        </p>
+                        <p>
+                            <a href="#">Research</a><br>
+                            <a href="#">Case Studies</a><br>
+                            <a href="#">Music</a><br>
+                            <a href="#">Military</a>
+                        </p>
+                    </div>
+                    <div class="jumbotron bg-transparent mb-0 mr-3 col-2">
+                        <p class="smaller">
+                            COMPANY
+                        </p>
+                        <p>
+                            <a href="#">Leadership</a><br>
+                            <a href="#">Press</a><br>
+                            <a href="#">Blog</a><br>
+                            <a href="#">Careers</a>
+                        </p>
+                    </div>
+                    <div class="jumbotron bg-transparent mb-0 mr-3 col-2">
+                        <p class="smaller">
+                            Terms
+                        </p>
+                        <p>
+                            <a href="#">Privacy Policy</a><br>
+                            <a href="#">Terms of Use</a><br>
+                            <a href="#">Terms of Sale</a><br>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="jumbotron bg-transparent m-0 tm p-2 d-flex justify-content-end">
+                    <p class="text-white"> © 2020 Halo Neuroscience</p>
                 </div>
 
             </div>
         </div>
-
-    </div>
-    </div>
 
 </body>
 
