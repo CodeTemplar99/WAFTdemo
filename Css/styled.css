@@ -40,12 +40,12 @@ nav{
 
 .shop-con{
     position: relative;
-    left: 70vh;
+    left: 45vh;
 }
 
 .fa-shopping-cart{
     color: white;
-    font-size: 180%;
+    font-size: 130%;
 }
 .fa-angle-down{
     color: white;
