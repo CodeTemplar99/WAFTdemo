@@ -559,7 +559,175 @@ color: white;
 
 .must-read-con{
     position: relative;
-    left: 95vh;
+    left: 120vh;
+}
+
+
+/* EXPERIENCE */
+
+
+.ex-top{
+    /* background:black !important; */
+    height: 79vh;
+    display: flex !important;
+    justify-content: flex-end;
+    background-image: url("/images/downloadx.webp") !important;
+     background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    object-fit: contain;
+}
+
+.ex-top-inner{
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    padding: 30px !important;
+    height: 40vh;
+    position: relative;
+    top: 10vh;
+}
+
+
+.ex-top-inner p{
+    font-family: serif;
+color: white;
+font-size: 290% !important;
+}
+
+.ex-top-inner small{
+color: white;
+font-size: 100%;
+}
+
+.ex-top-inner .btn{
+    font-weight: normal;
+}
+
+.ex-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ex-2-title{
+    font-family: serif;
+    font-size: 200%;
+}
+
+.ex2-text-con{
+    width: 60vh;
+    margin-right: 7vh;
+}
+
+.ex-2-img{
+    width: 30%;
+}
+
+.ex-3{
+    /* background: #25f1c9; */
+    /* height: 57vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20%;
+}
+
+.ex-3 hr{
+    background-color: #25f1c9;
+    width: 75px;
+     padding: 1px;
+     margin: 0px;
+     margin-bottom: 4px;
+}
+
+.ex-3 .vid-con{
+    background-color: lightgray;
+    width: 70%;
+    height:60vh;
+    border-radius: 0px;
+    margin-bottom: 0px;
+}
+
+.ex-3-title{
+    font-family: serif;
+    font-size: 200%;
+    margin-bottom: 0px;
+}
+
+
+.ex-4{
+    /* background: #25f1c9; */
+    /* height: 57vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ex-4 hr{
+    background-color: #25f1c9;
+    width: 75px;
+     padding: 1px;
+     margin: 0px;
+     margin-bottom: 4px;
+}
+
+.ex-4 .vid-con{
+    background-color: lightgray;
+    width: 70%;
+    height:60vh;
+    border-radius: 0px;
+    margin-bottom: 0px;
+}
+
+.ex-4-title{
+    font-size: 200%;
+    margin-bottom: 0px;
+}
+.ex-4-2{
+    background: lightgray;
+    width: 70%;
+    height: 50vh !important;
+}
+.ex-5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.faq{
+    font-size: 240%;
+}
+
+.faq-3-3 hr{
+    background-color: #25f1c9;
+    width: 75px;
+    position: relative;
+    left:48%;
+     padding: 1px;
+     margin: 0px;
+     margin-bottom: 4px;
+}
+.faq-flex-cons{
+    width: 42vh;
+    margin: 0.8vh;
+    border-radius: 0px;
+}
+
+.faq-title-text{
+    font-weight: bold;
+    font-family: 120%;
+}
+
+
+.faq-texts{
+    font-weight:normal;
+    font-family: 230%;
+    margin-bottom: 0px;
 }
 
 @media screen and (max-width:1024px){
