@@ -8,6 +8,26 @@ function showSideBar() {
 }
 
 
+
+function showShopList() {
+    document.querySelector('.hover-1').style.display = "block";
+}
+function hideShopList() {
+    document.querySelector('.hover-1').style.display = "none";
+
+}
+
+
+
+function showResultList() {
+    document.querySelector('.hover-2').style.display = "block";
+}
+function hideResultList() {
+    document.querySelector('.hover-2').style.display = "none";
+
+}
+
+
 // slide
 // var on = true;
 // var myVar = setInterval(function () { if (on) { slides() } on = true; }, 7000);

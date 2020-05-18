@@ -28,8 +28,9 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
-                        <li class="nav-item mx-4 active">
-                            <a class="nav-link" href="#">Shop
+                        <li class="nav-item mx-4 active" id="shop-link" onmouseover="showShopList()"
+                            onmouseout="hideShopList()">
+                            <a class="nav-link" id="shop-inner" href="#">Shop
                                 <span class="sr-only">(current)</span><span class="small ml-lg-1"><i
                                         class="fa fa-angle-down"></i></span></a>
                         </li>
@@ -39,12 +40,13 @@
                         <li class="nav-item mx-4">
                             <a class="nav-link" href="./experience.html">Experience</a>
                         </li>
-                        <li class="nav-item mx-4">
-                            <a class="nav-link" href="#">Result<span class="small ml-lg-1"><i
+                        <li class="nav-item mx-4" id="result-link" onmouseover="showResultList()"
+                            onmouseout="hideResultList()">
+                            <a class="nav-link" id="result-inner" href="#">Result<span class="small ml-lg-1"><i
                                         class="fa fa-angle-down"></i></span></a>
                         </li>
                         <li class="nav-item mx-4">
-                            <a class="nav-link" href="#">Support</a>
+                            <a class="nav-link" href="./Support.html">Support</a>
                         </li>
                     </ul>
                 </div>
@@ -55,6 +57,23 @@
             </div>
         </div>
     </nav>
+
+    <div class="jumbotron hover-1" onmouseover="showShopList()" onmouseout="hideShopList()">
+        <uL style="list-style-type: none;">
+            <li>Buy Halo Sport</li>
+            <li>Accessories</li>
+        </uL>
+    </div>
+
+    <div class="jumbotron hover-2" onmouseover="showResultList()" onmouseout="hideResultList()">
+        <uL style="list-style-type: none;">
+            <li>Music</li>
+            <li>Skill</li>
+            <li>Strength</li>
+            <li>Endurance</li>
+            <li>All Results</li>
+        </uL>
+    </div>
 
     <div class="container-fluid p-0 rounded-0">
         <!-- s1 -->
