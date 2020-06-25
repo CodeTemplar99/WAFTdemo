@@ -18,7 +18,6 @@ function hideShopList() {
 }
 
 
-
 function showResultList() {
     document.querySelector('.hover-2').style.display = "block";
 }
