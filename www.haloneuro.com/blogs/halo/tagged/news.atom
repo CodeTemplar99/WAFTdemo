@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en-US" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://www.haloneuro.com/blogs/halo.atom</id>
+  <link rel="alternate" type="text/html" href="https://www.haloneuro.com/blogs/halo"/>
+  <link rel="self" type="application/atom+xml" href="https://www.haloneuro.com/blogs/halo/tagged/news.atom"/>
+  <title>Halo Neuroscience - Halo Neuroscience Blog</title>
+  <updated>2019-09-12T09:00:00-07:00</updated>
+  <author>
+    <name>Halo Neuroscience</name>
+  </author>
+  <entry>
+    <id>https://www.haloneuro.com/blogs/halo/berklee-college-of-music-collaboration</id>
+    <published>2019-09-12T09:00:00-07:00</published>
+    <updated>2020-03-12T16:10:24-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.haloneuro.com/blogs/halo/berklee-college-of-music-collaboration"/>
+    <title>Berklee College of Music and Halo Neuroscience Announce Collaboration To Accelerate Music Learning in the Brain</title>
+    <author>
+      <name>Isabelle Rossi de Leon</name>
+    </author>
+    <summary type="html">
+      <![CDATA[Premier music institution joins forces with neurotech innovator to understand how musicians can use brain stimulation to enhance skill and creativity.<p><a class="read-more" href="https://www.haloneuro.com/blogs/halo/berklee-college-of-music-collaboration">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<h3>Premier music institution joins forces with neurotech innovator to understand how musicians can use brain stimulation to enhance skill and creativity.</h3>
+<p>This summer, <a href="https://www.berklee.edu/" target="_blank" rel="noopener noreferrer">Berklee College of Music</a> launched a collaboration with <a href="https://www.haloneuro.com/">Halo Neuroscience</a>, creators of Halo Sport—the first ever consumer brain stimulator that accelerates muscle memory development. Together, Berklee and Halo are exploring how brain stimulation helps musicians optimize their practice and develop musical technique and creativity faster.</p>
+<p>The collaboration between Berklee and Halo Neuroscience stems from a number of recently published neuroscience papers looking at the mechanism in the brain that allows musicians to master the motor skills they need to play the right notes at the right time. These double-blind, placebo-controlled studies (referenced below) show that brain stimulation has the potential to accelerate a musician’s ability to learn musical technique and even foster creativity. Berklee and Halo’s goal is to evaluate the power of brain stimulation in a real-world setting, and bring this technology to musicians everywhere.</p>
+<img alt="" src="//cdn.shopify.com/s/files/1/0037/7965/7840/files/Guitar_Berklee_Halo_3_flipped_medium.jpg?v=1568050908" style="float: right;">
+<p>“We’re excited to have this opportunity to advance our understanding of how musical skills develop in the brain,” said Panos A. Panay, Senior Vice President for Global Strategy and Innovation at Berklee. <strong>“The potential to accelerate music learning and unleash creativity through transcranial electric stimulation, combined with Halo’s beyond-cutting edge technology, is one of the most exciting things we can bring to the next generation of music makers. Our goal is to explore how brain stimulation can help musicians in ways that were once just a distant pipe dream.”</strong></p>
+<p>The new collaboration kicked off with a summer fellowship, during which two Berklee students, plus guest participants from Stanford University and Yale University, wrote, practiced, and played music measuring brain activity and using neurostimulation technology to enhance their productivity and streamline their learning.</p>
+<p>Alyse Brown, a summer fellow who graduated from the Boston Conservatory at Berklee with a bachelor’s degree in music and a minor in psychology, used Halo Sport to <a href="https://www.haloneuro.com/learn-guitar" target="_blank" rel="noopener noreferrer">learn guitar for the first time</a>. “With Halo Sport, I was able to face my fears and learn guitar in just eight weeks. I even performed a duet with a friend in front of 50 people at the end of the summer! I’ve gained so much confidence since I started practicing with Halo Sport, and I hope other musicians at Berklee will have the opportunity to benefit from it as well. This could be just the thing that takes musicians to the next level.”</p>
+<p>Another student, Lily Dowling, a singer-songwriter currently going into her third year at Berklee College, used a different type of stimulation to improve her songwriting efficiency. <strong>“I never thought I would be incorporating brain stimulation into my songwriting process, let alone see such a big difference. With Halo’s technology, I was able to quadruple the number of songs I could write per week!”</strong></p>
+<p>Dr. Brett Wingeier, Halo co-founder and Co-CEO, comments: “We’re thrilled to work with Berklee to improve musicians’ motor skills and accelerate their musical training. The next step will be exploring ways transcranial electric stimulation can affect attention and focus. Recent literature suggests that specific patterns of stimulation applied to cognitive areas of the brain could potentially help unlock more creativity for solos and songwriting.” </p>
+<p>Following this summer’s fellowship, the two institutions will look to continue learning how different types of brain stimulation including transcranial direct current stimulation, transcranial alternating current stimulation, and transcranial random noise stimulation can help musicians increase technical ability, creativity, and focus.</p>
+<p><em><a href="https://www.haloneuro.com/pages/newsletter" target="_blank" rel="noopener noreferrer">Join our email list</a> to be the first to hear about the latest developments in neuroscience and human performance, and <a href="https://www.haloneuro.com/products/halo-sport-2" target="_blank" rel="noopener noreferrer">try Halo Sport for yourself</a> — if you don't see results in 30 days, just send it back.</em></p>
+<h4>Research papers</h4>
+<ul>
+<li style="font-weight: 400;">
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/14642491">Lotze et al. 2003, University of Tübingen</a>: found professional violinists had less overall brain activity than amateur violinists, plus more focused activity in the following motor areas: motor cortex, primary auditory cortex, supplementary motor area (SMA), and premotor area (PMA)</li>
+<li style="font-weight: 400;">
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/18301756">Limb et al. 2003, National Institute of Health</a>: found deactivation in prefrontal cortex and increased sensorimotor activity during improvisation</li>
+<li style="font-weight: 400;">
+<a href="https://www.ncbi.nlm.nih.gov/m/pubmed/24431461/">Waters-Metenier et al. (2014 and 2017), University College London</a>: found that stimulation produces 17-40% faster learning for piano chord configuration tasks</li>
+<li style="font-weight: 400;">
+<a href="https://halo-website-static-assets.s3.amazonaws.com/whitepapers/cct.pdf">Lin et al. 2016, Halo Neuroscience</a>: found 75% faster results in stim group compared to placebo group at producing piano chords with varying levels of force</li>
+<li style="font-weight: 400;">
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6082949/">Lucchiari et al. 2018, University of Milan</a>: review of 18 research papers on tDCS for enhancing creativity </li>
+</ul>
+<h4>About Berklee College of Music</h4>
+<p>Berklee College of Music is one of the most prestigious institutes of contemporary music and the performing arts, with 283 Grammy winners, 89 Latin Grammy winners, five Oscar winners and 19 Emmy winners among its students, faculty, and alumni.</p>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://www.haloneuro.com/blogs/halo/halo-neuroscience-halo-sport-2-ces</id>
+    <published>2019-01-09T09:40:00-08:00</published>
+    <updated>2019-06-03T09:25:58-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.haloneuro.com/blogs/halo/halo-neuroscience-halo-sport-2-ces"/>
+    <title>Halo Neuroscience Launches Halo Sport 2 at CES</title>
+    <author>
+      <name>Isabelle Rossi de Leon</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<meta charset="utf-8">
+<p>The company’s 2019 goal is to make neurostimulation more accessible to all.</p><p><a class="read-more" href="https://www.haloneuro.com/blogs/halo/halo-neuroscience-halo-sport-2-ces">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p><strong>Press Release, San Francisco, CA, January 8, 2019</strong> – San Francisco-based human performance company <a href="https://www.haloneuro.com/" title="Halo Neuroscience" target="_blank" rel="noopener noreferrer">Halo Neuroscience</a> changed lives across the globe when it debuted Halo Sport, the first brain stimulator that accelerates muscle memory development. Today, the company announced the launch of Halo Sport 2, a fully upgraded Halo Sport at a price that makes neurostimulation more accessible to all.</p>
+<meta charset="utf-8">
+<p><span>“In the new Halo Sport, Bluetooth audio is now integrated for an entirely wireless experience, and audio quality is in line with high-end headphones. We also revamped the Primer form factor to make Neuropriming as easy as possible, and the Halo Sport app to feature tracking, reminders, and new content,” said Halo Neuroscience CEO and co-founder, Dr. Daniel Chao. “From the beginning, we’ve been committed to making Neuropriming accessible to everyone, so Halo Sport 2 will retail for $399 — the same price as a pair of Beats Pro.”</span></p>
+<meta charset="utf-8">
+<p>After celebrating 250,000 Halo Sport training sessions worldwide and landing partnerships with Equinox and TRX in 2018, Halo Neuroscience has proven that the appetite for neurostimulation extends far beyond the elite athletes that initially adopted the technology. The goal of Halo Sport 2 is to provide the same benefit to all athletes, musicians, and gamers as it has for elite athletes: the ability to do more in less practice time and reach higher levels of performance.</p>
+<meta charset="utf-8">
+<p><a href="https://haloneuro.com/products/halo-sport-2" title="Halo Neuroscience launches Halo Sport 2 at CES 2019"><span style="font-weight: 400;"><img src="//cdn.shopify.com/s/files/1/0037/7965/7840/files/SFO6523_2_grande.jpg?v=1543435098" alt="Halo Sport 2 in action"></span></a></p>
+<meta charset="utf-8"><meta charset="utf-8">
+<p>Halo Sport is backed by more than 15 years of research and 4,000 peer-reviewed papers. The company is also kicking off new studies with top organizations to further unpack how brain stimulation <a href="https://www.haloneuro.com/pages/results" target="_blank" title="Halo Sport improves performance in controlled studies" rel="noopener noreferrer">improves athletic performance</a> and accelerates skill development in music and esports.</p>
+<p>Halo Neuroscience originally released Halo Sport at CES 2017, which earned them a Fast Company Award for "Most Innovative Companies" in Fitness. Now, they are unveiling the newest version of Halo Sport at CES 2019.</p>
+<p>Ready to upgrade your brain, your training, and your life? <a href="https://www.haloneuro.com/products/halo-sport-2" title="Pre-order Halo Sport 2">Pre-order Halo Sport 2 today</a> to save $50.</p>
+<meta charset="utf-8">
+<p name="d09e" id="d09e" class="graf graf--p graf-after--p">— — — — —</p>
+<p name="fa79" id="fa79" class="graf graf--p graf-after--p graf--trailing"><em class="markup--em markup--p-em">We’d love to hear from you! Shoot us a note at hello@haloneuro.com, and follow us on<span> </span></em><a href="https://twitter.com/haloneuro" data-href="https://twitter.com/haloneuro" class="markup--anchor markup--p-anchor" rel="nofollow noopener noreferrer" target="_blank"><em class="markup--em markup--p-em">Twitter</em></a><em class="markup--em markup--p-em">,<span> </span></em><a href="https://www.instagram.com/haloneuroscience/" data-href="https://www.instagram.com/haloneuroscience/" class="markup--anchor markup--p-anchor" rel="nofollow noopener noreferrer" target="_blank"><em class="markup--em markup--p-em">Instagram</em></a><em class="markup--em markup--p-em">, and<span> </span></em><a href="https://www.facebook.com/halo.neuroscience/" data-href="https://www.facebook.com/halo.neuroscience/" class="markup--anchor markup--p-anchor" rel="nofollow noopener noreferrer" target="_blank"><em class="markup--em markup--p-em">Facebook</em></a><em class="markup--em markup--p-em">.</em></p>]]>
+    </content>
+  </entry>
+</feed>

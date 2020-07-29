@@ -1,399 +1,235 @@
-<!DOCTYPE html>
-<html lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 
 <head>
-    <title></title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>WAFT demo</title>
-    <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <link href="./icons/css/fontawesome-all.min.css" rel="stylesheet" type="text/css">
-    <link href="./Css/styled.css" rel="stylesheet" type="text/css">
-    <script defer src="./js/spine.js"></script>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="description"
+		content="HTTrack is an easy-to-use website mirror utility. It allows you to download a World Wide website from the Internet to a local directory,building recursively all structures, getting html, images, and other files from the server to your computer. Links are rebuiltrelatively so that you can freely browse to the local site (works with any browser). You can mirror several sites together so that you can jump from one toanother. You can, also, update an existing mirror site, or resume an interrupted download. The robot is fully configurable, with an integrated help" />
+	<meta name="keywords"
+		content="httrack, HTTRACK, HTTrack, winhttrack, WINHTTRACK, WinHTTrack, offline browser, web mirror utility, aspirateur web, surf offline, web capture, www mirror utility, browse offline, local  site builder, website mirroring, aspirateur www, internet grabber, capture de site web, internet tool, hors connexion, unix, dos, windows 95, windows 98, solaris, ibm580, AIX 4.0, HTS, HTGet, web aspirator, web aspirateur, libre, GPL, GNU, free software" />
+	<title>Local index - HTTrack Website Copier</title>
+	<!-- Mirror and index made by HTTrack Website Copier/3.49-2 [XR&CO'2014] -->
+	<style type="text/css">
+		body {
+			margin: 0;
+			padding: 0;
+			margin-bottom: 15px;
+			margin-top: 8px;
+			background: #77b;
+		}
+
+		body,
+		td {
+			font: 14px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+		}
+
+		#subTitle {
+			background: #000;
+			color: #fff;
+			padding: 4px;
+			font-weight: bold;
+		}
+
+		#siteNavigation a,
+		#siteNavigation .current {
+			font-weight: bold;
+			color: #448;
+		}
+
+		#siteNavigation a:link {
+			text-decoration: none;
+		}
+
+		#siteNavigation a:visited {
+			text-decoration: none;
+		}
+
+		#siteNavigation .current {
+			background-color: #ccd;
+		}
+
+		#siteNavigation a:hover {
+			text-decoration: none;
+			background-color: #fff;
+			color: #000;
+		}
+
+		#siteNavigation a:active {
+			text-decoration: none;
+			background-color: #ccc;
+		}
+
+
+		a:link {
+			text-decoration: underline;
+			color: #00f;
+		}
+
+		a:visited {
+			text-decoration: underline;
+			color: #000;
+		}
+
+		a:hover {
+			text-decoration: underline;
+			color: #c00;
+		}
+
+		a:active {
+			text-decoration: underline;
+		}
+
+		#pageContent {
+			clear: both;
+			border-bottom: 6px solid #000;
+			padding: 10px;
+			padding-top: 20px;
+			line-height: 1.65em;
+			background-image: url(backblue.gif);
+			background-repeat: no-repeat;
+			background-position: top right;
+		}
+
+		#pageContent,
+		#siteNavigation {
+			background-color: #ccd;
+		}
+
+
+		.imgLeft {
+			float: left;
+			margin-right: 10px;
+			margin-bottom: 10px;
+		}
+
+		.imgRight {
+			float: right;
+			margin-left: 10px;
+			margin-bottom: 10px;
+		}
+
+		hr {
+			height: 1px;
+			color: #000;
+			background-color: #000;
+			margin-bottom: 15px;
+		}
+
+		h1 {
+			margin: 0;
+			font-weight: bold;
+			font-size: 2em;
+		}
+
+		h2 {
+			margin: 0;
+			font-weight: bold;
+			font-size: 1.6em;
+		}
+
+		h3 {
+			margin: 0;
+			font-weight: bold;
+			font-size: 1.3em;
+		}
+
+		h4 {
+			margin: 0;
+			font-weight: bold;
+			font-size: 1.18em;
+		}
+
+		.blak {
+			background-color: #000;
+		}
+
+		.hide {
+			display: none;
+		}
+
+		.tableWidth {
+			min-width: 400px;
+		}
+
+		.tblRegular {
+			border-collapse: collapse;
+		}
+
+		.tblRegular td {
+			padding: 6px;
+			background-image: url(fade.gif);
+			border: 2px solid #99c;
+		}
+
+		.tblHeaderColor,
+		.tblHeaderColor td {
+			background: #99c;
+		}
+
+		.tblNoBorder td {
+			border: 0;
+		}
+	</style>
 </head>
+<table width="76%" border="0" align="center" cellspacing="0" cellpadding="3" class="tableWidth">
+	<tr>
+		<td id="subTitle">HTTrack Website Copier - Open Source offline browser</td>
+	</tr>
+</table>
+<table width="76%" border="0" align="center" cellspacing="0" cellpadding="0" class="tableWidth">
+	<tr class="blak">
+		<td>
+			<table width="100%" border="0" align="center" cellspacing="1" cellpadding="0">
+				<tr>
+					<td colspan="6">
+						<table width="100%" border="0" align="center" cellspacing="0" cellpadding="10">
+							<tr>
+								<td id="pageContent">
+									< !--====================End prologue====================-->
 
-<body>
+										<meta name="generator" content="HTTrack Website Copier/3.x">
+										<TITLE>Local index - HTTrack</TITLE>
+										</HEAD>
 
-    <nav class="navbar navbar-expand-lg navbar-light d-flex  justify-content-start flex-wrap col-12">
-        <div class="col-lg-10 bg-transparent d-flex flex-wrap justify-content-start flex-wrap align-items-center">
-            <div class="ml-lg-1">
-                <a class="navbar-brand" href="./index.html"><img src="./images/logo_200x.png"></a>
-            </div>
-            <div class="bg-transparent lister">
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation" onclick="showSideBar()">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item mx-4 active" id="shop-link" onmouseover="showShopList()"
-                            onmouseout="hideShopList()">
-                            <a class="nav-link" id="shop-inner" href="#">Shop
-                                <span class="sr-only">(current)</span><span class="small ml-lg-1"><i
-                                        class="fa fa-angle-down"></i></span></a>
-                        </li>
-                        <li class="nav-item mx-4">
-                            <a class="nav-link" href="./science.html">Science</a>
-                        </li>
-                        <li class="nav-item mx-4">
-                            <a class="nav-link" href="./experience.html">Experience</a>
-                        </li>
-                        <li class="nav-item mx-4" id="result-link" onmouseover="showResultList()"
-                            onmouseout="hideResultList()">
-                            <a class="nav-link" id="result-inner" href="#">Result<span class="small ml-lg-1"><i
-                                        class="fa fa-angle-down"></i></span></a>
-                        </li>
-                        <li class="nav-item mx-4">
-                            <a class="nav-link" href="./Support.html">Support</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="jumbotron bg-transparent p-0 m-0 shop-con">
-                <i class="fa fa fa-shopping-cart"></i>
-            </div>
-        </div>
-    </nav>
-
-    <div class="jumbotron hover-1" onmouseover="showShopList()" onmouseout="hideShopList()">
-        <uL style="list-style-type: none;">
-            <li>Buy Halo Sport</li>
-            <li>Accessories</li>
-        </uL>
-    </div>
-
-    <div class="jumbotron hover-2" onmouseover="showResultList()" onmouseout="hideResultList()">
-        <uL style="list-style-type: none;">
-            <li>Music</li>
-            <li>Skill</li>
-            <li>Strength</li>
-            <li>Endurance</li>
-            <li>All Results</li>
-        </uL>
-    </div>
-
-    <div class="container-fluid p-0 rounded-0">
-        <!-- s1 -->
-        <div class="jumbotron mb-0 rounded-0 s1 p-0">
-            <div id="slide">
-                <img class="image-responsive img-fluid" src="./images/phoneInDark-768x432.jpg">
-                <!-- <img class="image-responsive img-fluid" src="./images/pexels-photo.jpg"> -->
-                <!-- <img class="image-responsive img-fluid" src="./images/eclipse_art-wallpaper-1600x900.jpg"> -->
-                <!-- <img class="image-responsive img-fluid" src="./images/beautiful-wallpaper-1600x900.jpg"> -->
-            </div>
-            <div
-                class="jumbotron col-lg-12 p-1 position-absolute d-flex justify-content-between align-items-center bg-transparent abs-con">
-                <div class="jumbotron col-lg-6 p-1 bg-transparent d-flex  justify-content-start align-items-center">
-                    <div class="jumbotron bg-transparent m-0 bg-danger p-1 ml-lg-3 mr-lg-5">
-                        <i class="fa fa-play" id="playRight"></i>
-                    </div>
-                    <div class="jumbotron m-0 p-0 pl-1 bg-transparent">
-                        <p class="lead big-text mb-1">Paralympian Closer to Tokyo 2020 </p>
-                        <p class="text-intro"> "I dropped 6 seconds off my 100m back stroke... That's a massive amount
-                            of time. I'm doing
-                            the impossible with Halo
-                            Sport." - Jamal Hill, Paralympic Swimmer</p>
-                        <button class="btn btn-info">Watch Video</button>
-                    </div>
-                </div>
-                <div class="jumbotron bg-transparent mb-0 p-1 mr-lg-3">
-                    <i class="fa fa-play dxx"></i>
-                </div>
-
-            </div>
-
-        </div>
-
-        <!-- s2 -->
-        <div class="jumbotron bg-white mb-1 rounded-0 d-flex flex-wrap justify-content-center align-items-center">
-            <div class="jumbotron col-lg-4 bg-transparent mr-lg-2">
-                <p class="lead text-center text-writeup-head">
-                    What is Halo Sport?
-                </p>
-                <p class="text-center text-writeup">Halo Sport is a brain stimulator that helps you develop muscle
-                    memory faster.</p>
-            </div>
-            <div class="jumbotron bg-transparent p-1 ml-lg-2">
-                <img class="image-fluid s2-img" src="./images/download5.webp">
-
-            </div>
-
-        </div>
-        <!-- s3 -->
-        <div
-            class="jumbotron mb-0 black rounded-0 px-0 py-4 d-flex flex-wrap justify-content-lg-start align-items-center">
-            <div class="jumbotron col-lg-6 mr-lg-4 rounded-0 vid-con"></div>
-            <div class="jumbotron bg-transparent  black-right">
-                <div class="col-12">
-                    <p class="reduced">How Halo Sport Works</p>
-                    <hr class="first-line">
-                </div>
-                <div class="col-12 mt-4 text-white">
-                    <p class="mt-5">
-                        Halo Sport works by applying a small electric current to the area of the brain that controls
-                        movement, putting it into a
-                        state of hyperlearning.
-
-                        Peer-reviewed research shows Halo Sport improves performance by 15%.
-
-                    </p>
-                    <button class="btn">Learn the Science</button>
-                </div>
-            </div>
-        </div>
-        <div class="jumbotron bg-secondary rounded-0 p-4 m-0 d-flex justify-content-center">
-            <!-- <p class="text-center text-white m-0 smaller">Discover our research with the world's best athletes and
-                musicians</p> -->
-            <div>
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2 rounded-0 mail-input" type="search" placeholder="Enter your mail"
-                        aria-label="Search">
-                    <button class="btn btn-outline-success btnr my-2 my-sm-0" type="submit">I'm in</button>
-                </form>
-            </div>
-        </div>
-        <!-- s4 -->
-        <div class="jumbotron mb-0 bg-transparent rounded-0 p-0">
-            <div class="jumbotron black rounded-0 p-4 mb-0"></div>
-            <div class="jumbotron black rounded-0 p-4 mb-0">
-                <p class="lead text-center text-white reduced mb-0">Benefits</p>
-                <span>
-                    <hr class="benefit-line"></span>
-            </div>
-            <div class="jumbotron black rounded-0 p-4 mb-0"></div>
-            <div class="jumbotron black rounded-0 p-4 mb-0"></div>
-            <div class="jumbotron black rounded-0 p-4 mb-0"></div>
-            <div class="jumbotron black rounded-0 p-4 mb-0"></div>
-            <div class="jumbotron black rounded-0 p-4 mb-0"></div>
-            <div class="jumbotron black rounded-0 p-4 mb-0">
-            </div>
-
-            <div class="jumbotron bg-transparent mb-0 p-0 rounded-0 col-lg-12 d-flex flex-wrap justify-content-center">
-                <div class="jumbotron p-0 mx-2 s3-img-con" style="background: url(./images/download2.webp)">
-                    <div class="cover-all">
-                        <p class="small mb-0 text-white text-center benefits">BENEFITS<br>
-                        </p>
-                        <p class="lead text-center text-white mb-1 smaller u-benefits">
-                            Improve Performance
-                        </p>
-                        <p class="text-white text-center uu-benefits">Studies show Halo Sport improves performance by
-                            <span class="stripe"> +15%</span>. So you
-                            can
-                            run faster, get stronger, and more.
-                        </p>
-                    </div>
-                </div>
-                <div class="jumbotron p-0 mx-2 s3-img-con" style="background: url(./images/download4.webp)">
-                    <div class="cover-all">
-                        <p class="small mb-0 text-white text-center benefits">BENEFITS</p>
-                        <p class="lead text-center text-white mb-1 smaller u-benefits">
-                            Get Results Faster
-                        </p>
-                        <p class="text-white text-center uu-benefits">Get Results Faster
-                            Real world tests show Halo Sport helps people see results <span class="stripe">45%</span>
-                            faster. So you
-                            can get in
-                            shape or
-                            learn songs in less
-                            time.</p>
-                    </div>
-                </div>
-                <div class="jumbotron p-0 mx-2 s3-img-con" style="background: url(./images/download3.webp)">
-                    <div class="cover-all">
-                        <p class="small mb-0 text-white text-center benefits">BENEFITS</p>
-                        <p class="lead text-center text-white mb-1 smaller u-benefits">
-                            Develop Skill
-                        </p>
-                        <p class="text-white text-center uu-benefits">Studies show Halo Sport helps musicians develop
-                            <span class="stripe">30%</span> more
-                            skill. So
-                            you can perfect your technique or finally learn
-                            guitar.</p>
-                    </div>
-                </div>
-
-            </div>
-            <div class="jumbotron p-0 mb-0 bg-transparent rounded-0 btn-nd-co">
-                <div class="jumbotron bg-transparent p-1 d-flex flex-wrap justify-content-center">
-                    <button class="btn">Buy Halo Sport</button>
-                </div>
-
-                <div class="jumbotron bg-transparent">
-                    <div class="prime-cover">
-                        <p class="reduced text-dark mb-0"> Prime for 20,<br>
-                            Train for 60<br>
-                            <span>
-                                <hr class="prime-line"></span></p>
-
-                        <ul class="list-group ml-lg-5">
-                            <li>Wear Halo Sport for 20 minutes, then take it off</li>
-                            <li>Benefits last for the next 60 minutes</li>
-                            <li>Practice as usual, see better results</li>
-                        </ul>
-                        <button class="btn liner-btn">Learn How to Use Halo</button>
-                    </div>
-
-                </div>
-
-                <div class="jumbotron bg-transparent d-flex flex-wrap justify-content-center">
-                    <div class=" badge-danger real-left" style="background: url(./images/download1.webp)">
-                    </div>
-                    <div class="real-cover">
-                        <p class="reduced text-dark mb-0">Real Science,<br>
-                            Real Results</p>
-                        <span>
-                            <hr class="real-line"></span>
-                        <p>
-                            Thousands of peer-reviewed papers and real-world studies prove that Neuropriming works. In
-                            this placebo-controlled
-                            study, U.S. Olympians saw 45% faster results with Halo Sport.
-                        </p>
-                        <button class="btn liner-btn mt-">See Results</button>
-                    </div>
-
-                </div>
-
-                <div class="jumbotron mb-4 bg-transparent p-2 rounded-0 partner-super">
-                    <div>
-                        <p class="small m-0 text-center partner-title">Halo Neuroscience Partners</p>
-                    </div>
-                    <!-- <div class="jumbotron bg-transparent mt-2 mb-0 px-3 py-0 pb-2 partners-con"> -->
-                    <div
-                        class="d-flex flex-wrap bg-transparent justify-content-center flex-wrap align-items-center p-0 partner-box-con col-lg-12">
+										<BODY>
+											<H1 ALIGN=Center>Index of locally available sites:</H1>
+											<TABLE BORDER="0" WIDTH="100%" CELLSPACING="1" CELLPADDING="0">
+												<TR>
+													<TD BACKGROUND="fade.gif">
+														&middot;
+														<A HREF="www.haloneuro.com/index.html">
+															Halo Neuroscience | Upgrade Your Brain
+														</A>
+													</TD>
+												</TR>
+											</TABLE>
+											<BR>
+											<BR>
+											<BR>
+											<H6 ALIGN="RIGHT">
+												<I>Mirror and index made by HTTrack Website Copier [XR&amp;CO'2008]</I>
+											</H6>
+											<!-- Mirror and index made by HTTrack Website Copier/3.49-2 [XR&CO'2014] -->
+											<!-- Thanks for using HTTrack Website Copier! -->
+											<meta HTTP-EQUIV="Refresh" CONTENT="0; URL=www.haloneuro.com/index.html">
 
 
-                        <video width="" height="" autoplay="" loop="" muted="" webkit-playsinline="" playsinline=""
-                            style="" preload="none" class="shogun-image ">
-                            <source
-                                src="https://i.shgcdn.com/4d4781d2-3354-43ab-9285-d764e8eda584/gif2video/-/format/webm/-/quality/lighter/"
-                                type="video/webm">
-                        </video>
+											<!-- ==================== Start epilogue ==================== -->
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
 
+<table width="76%" border="0" align="center" valign="bottom" cellspacing="0" cellpadding="0">
+	<tr>
+		<td id="footer"><small>&copy; 2008 Xavier Roche & other contributors - Web Design: Leto Kauler.</small></td>
+	</tr>
+</table>
 
-                    </div>
-
-
-                    <!-- </div> -->
-                </div>
-
-                <div class="jumbotron bg-transparent rounded-0 p-1 mb-3">
-                    <div>
-                        <p class="text-center text-dark reduced mb-0">Your Questions, Answered</p>
-                    </div>
-                    <div class="jumbotron bg-transparent p-1 mb-0 d-flex flex-wrap justify-content-center">
-                        <div class="jumbotron answer-texts-con mx-0 mb-0 rounded-0 bg-white">
-                            <p class="smaller text-dark ">
-                                Is Halo Sport safe?
-                            </p>
-                            <p class="answer-texts">
-                                Yes. 15+ years of academic research and Halo Neuroscience trials on thousands of
-                                subjects validate Halo Sport's
-                                excellent safety profile. This patented technology was built with medical-grade
-                                engineering and design.
-                            </p>
-                        </div>
-                        <div class="jumbotron answer-texts-con mx-0 mb-0 rounded-0 bg-white">
-                            <p class="smaller text-dark ">
-                                Who can use Halo Sport?
-                            </p>
-                            <p class="answer-texts">
-                                Adults over 18 who are trying to improve their physical performance through
-                                movement-based training, including athletes,
-                                musicians, trainers, fitness enthusiasts, and more.
-                            </p>
-                        </div>
-                        <div class="jumbotron answer-texts-con mx-0 mb-0 rounded-0 bg-white">
-                            <p class="smaller text-dark ">Should I wear Halo Sport during my training?
-                            </p>
-                            <p class="answer-texts">
-                                Up to you. After your 20-minute Neuropriming session, you can take off Halo Sport or
-                                keep it on and listen to music —
-                                the performance benefits are the same.
-                            </p>
-                        </div>
-
-                    </div>
-                    <div class="jumbotron bg-transparent p-1 d-flex flex-wrap justify-content-center">
-                        <button class="btn">Buy Halo Sport</button>
-                    </div>
-
-                </div>
-                <div class="jumbotron mb-0 mt-3 p-0 bg-transparent d-flex flex-wrap justify-content-center">
-                    <div class=" badge-danger enter-left" style="background: url(./images/download.webp)">
-                    </div>
-                    <div class="enter-cover">
-                        <small>SWEEPSTAKES</small>
-                        <p class="reduced text-dark">
-                            Enter to win Halo Sport 2<span>
-                                <hr class="enter-line"></span>
-                        <p>
-                            This month, one lucky person will win the only brain stimulator for muscle memory.
-                        </p>
-                        <button class="btn liner-btn">Enter Now</button>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="jumbotron mb-0 p-0 rounded-0 foot">
-                <div class=" jumbotron mb-0 bg-transparent foot-cover badge-danger p-0 d-flex justify-content-start">
-                    <div class="jumbotron bg-transparent mb-0 mr-3 col-lg-3">
-                        <p class="smaller">
-                            CONNECT
-                        </p>
-                        <p>
-                            <a href="#">FAQs</a><br>
-                            <a href="#">Partnerships</a><br>
-                            <a href="#">Social Media</a><br>
-                            <a href="#">Halo Sport 2 Owner's Guide</a>
-                        </p>
-
-
-                    </div>
-                    <div class="jumbotron bg-transparent mb-0 mr-3 col-lg-3">
-                        <p class="smaller">
-                            VALIDATION
-                        </p>
-                        <p>
-                            <a href="#">Research</a><br>
-                            <a href="#">Case Studies</a><br>
-                            <a href="#">Music</a><br>
-                            <a href="#">Military</a>
-                        </p>
-                    </div>
-                    <div class="jumbotron bg-transparent mb-0 mr-3 col-lg-3">
-                        <p class="smaller">
-                            COMPANY
-                        </p>
-                        <p>
-                            <a href="#">Leadership</a><br>
-                            <a href="#">Press</a><br>
-                            <a href="#">Blog</a><br>
-                            <a href="#">Careers</a>
-                        </p>
-                    </div>
-                    <div class="jumbotron bg-transparent mb-0 mr-3 col-lg-3">
-                        <p class="smaller">
-                            Terms
-                        </p>
-                        <p>
-                            <a href="#">Privacy Policy</a><br>
-                            <a href="#">Terms of Use</a><br>
-                            <a href="#">Terms of Sale</a><br>
-                        </p>
-                    </div>
-                </div>
-
-                <div class="jumbotron bg-transparent m-0 tm p-2 d-flex flex-wrap justify-content-end">
-                    <p class="text-white"> © 2020 Halo Neuroscience</p>
-                </div>
-
-            </div>
-        </div>
-    </div>
 </body>
 
 </html>
